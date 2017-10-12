@@ -16,7 +16,7 @@
 title: Zyon's Blog
 email: zyonbao@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Make a great journey.
+  Make the Journey better.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zyonbao
