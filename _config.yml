@@ -5,7 +5,7 @@ keyword: 'zyon, zyonbao, zyonpaul, iOS, iOS Dev'
 url: 'http://zyonbao.github.io' # your host
 
 # if you don't need baseurl, you should leave this value blank.
-baseurl: ''
+baseurl: 'https://zyonbao.github.io/'
 
 # Navigation links
 nav:
