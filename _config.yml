@@ -16,7 +16,7 @@ nav:
 author: 'Zyon Paul'
 nickname: 'Zyon'
 bio: 'iOSer，热爱技术&设计，喜欢睡觉'
-avatar: 'assets/img/profile.png'
+avatar: '/assets/img/profile.png'
 
 # Search
 search: true
