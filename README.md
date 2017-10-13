@@ -1,8 +1,8 @@
 ## jekyll-theme-H2O
 
-### 本博客实用了主题 jekyll-theme-H2O
+### 本博客使用主题 jekyll-theme-H2O
 
-#### 感谢主题的作者[liaokeyu](http://liaokeyu.com/) [github](https://github.com/kaeyleo/jekyll-theme-H2O)
+#### 感谢主题的作者[liaokeyu](http://liaokeyu.com/)
 
 ### H20 的主题特性
 
