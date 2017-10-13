@@ -1,22 +1,8 @@
 ## jekyll-theme-H2O
 
-### Preview
+### 主题作者
 
-#### [在线预览 Live Demo →](http://liaokeyu.com/)
-
-![](uploads/jekyll-theme-h2o-realhome.jpg)
-
-![](uploads/jekyll-theme-h2o-realm.png)
-
-如果你喜欢这个博客模板，请在右上角star一下，非常感谢～
-
-If you like this theme or using it, please give a ⭐️ for motivation ;)
-
-如果想体验手机浏览效果，可以扫一下二维码：
-
-![](uploads/1494404591.png)
-
-Using your smartphone to scan the QR Code
+#### 感谢主题的作者[liaokeyu](http://liaokeyu.com/)
 
 ### Features 特性
 
@@ -172,8 +158,6 @@ exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']
 
 #### 侧边栏
 
-![](uploads/jekyll-theme-h2o-sideBar.png)
-
 侧边栏分为两个部分：【个人简介】和【推荐标签】。当屏幕宽度小于960px时，侧边栏会被隐藏。
 
 #### 社交图标
@@ -241,8 +225,6 @@ Tags配置说明：
 
 #### 文章搜索
 
-![](uploads/jekyll-theme-h2o-search.png)
-
 基于Jekyll服务器生成文章索引文件 `search.json` 为博客提供搜索服务。输入文章标题或与文章标签相关的关键字即可。
 
 搜索功能默认是开启的，以卡片的样式显示在侧边栏底部。如需关闭请将配置文件 `_config.yml` 中 `search ` 属性的值改为 `false` 。
@@ -308,8 +290,6 @@ nightMode: true
 
 #### 主题皮肤
 
-![](uploads/jekyll-theme-h2o-themecolor.jpg)
-
 支持两种主题颜色蓝色（默认）和粉色
 
 主要效果体现在首页博客封面、顶部导航栏的logo以及鼠标悬停时文字显示的颜色效果。
@@ -336,8 +316,6 @@ header-img: assets/img/banner.jpg
 ```
 
 #### 头图底纹
-
-![](uploads/jekyll-theme-h2o-heroPatterns.png)
 
 在没有图片的情况下单纯显示颜色会不会太无趣了点？于是想到了加入底纹元素，底纹素材是SVG格式的（保存在css样式里），加载比图片快很多。六种底纹（电路、食物、云海、钻石等等）供你选择，配置如下：
 
