@@ -4,9 +4,9 @@
 
 #### [在线预览 Live Demo →](http://liaokeyu.com/)
 
-![](screenshot/jekyll-theme-h2o-realhome.jpg)
+![](uploads/jekyll-theme-h2o-realhome.jpg)
 
-![](screenshot/jekyll-theme-h2o-realm.png)
+![](uploads/jekyll-theme-h2o-realm.png)
 
 如果你喜欢这个博客模板，请在右上角star一下，非常感谢～
 
@@ -14,7 +14,7 @@ If you like this theme or using it, please give a ⭐️ for motivation ;)
 
 如果想体验手机浏览效果，可以扫一下二维码：
 
-![](screenshot/1494404591.png)
+![](uploads/1494404591.png)
 
 Using your smartphone to scan the QR Code
 
@@ -48,7 +48,7 @@ Using your smartphone to scan the QR Code
 - Search
 - Copyright text on copy event
 
-### Usage 快速开始 
+### Usage 快速开始
 
 首先你需要安装Jekyll，请查看文档: [快速指南](http://jekyll.com.cn/docs/quickstart/)
 
@@ -85,7 +85,7 @@ Using your smartphone to scan the QR Code
 	- [头图底纹](#头图底纹)
 - 高级部分
 	- [自定义](#自定义)
-- 集成服务 
+- 集成服务
 	- [Disqus](#Disqus)
 	- [Share.js](#Share.js)
 
@@ -124,10 +124,10 @@ You can easily get started by modifying _config.yml
 title: '廖柯宇的独立博客' # 你的博客网站标题
 description: '很高兴能在这里与你分享我对技术和生活的思考。' # 站点描述
 keyword: '廖柯宇, 廖柯宇的独立博客, 前端, 设计' # 网站关键词
-url: 'http://liaokeyu.com' # 站点url 
+url: 'http://liaokeyu.com' # 站点url
 baseurl: ''
- 
-# Build settings 
+
+# Build settings
 paginate: 6 # 一页放几篇文章
 paginate_path: 'page:num'
 ```
@@ -172,9 +172,9 @@ exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']
 
 #### 侧边栏
 
-![](screenshot/jekyll-theme-h2o-sideBar.png)
+![](uploads/jekyll-theme-h2o-sideBar.png)
 
-侧边栏分为两个部分：【个人简介】和【推荐标签】。当屏幕宽度小于960px时，侧边栏会被隐藏。 
+侧边栏分为两个部分：【个人简介】和【推荐标签】。当屏幕宽度小于960px时，侧边栏会被隐藏。
 
 #### 社交图标
 
@@ -227,7 +227,7 @@ avatar: 'assets/img/avatar.jpg'
 
 ```
 # Tags
-recommend-tags: true 
+recommend-tags: true
 recommend-condition-size: 12
 
 ```
@@ -241,11 +241,11 @@ Tags配置说明：
 
 #### 文章搜索
 
-![](screenshot/jekyll-theme-h2o-search.png)
+![](uploads/jekyll-theme-h2o-search.png)
 
 基于Jekyll服务器生成文章索引文件 `search.json` 为博客提供搜索服务。输入文章标题或与文章标签相关的关键字即可。
 
-搜索功能默认是开启的，以卡片的样式显示在侧边栏底部。如需关闭请将配置文件 `_config.yml` 中 `search ` 属性的值改为 `false` 。 
+搜索功能默认是开启的，以卡片的样式显示在侧边栏底部。如需关闭请将配置文件 `_config.yml` 中 `search ` 属性的值改为 `false` 。
 
 ```
 # Search
@@ -294,7 +294,7 @@ search: true
 
 #### 夜间模式
 
-晚11点至次日凌晨6点自动开启夜间模式。如果不需要，则将配置文件 `_config.yml` 中 `nightMode ` 属性的值改为 `false` 即可。 
+晚11点至次日凌晨6点自动开启夜间模式。如果不需要，则将配置文件 `_config.yml` 中 `nightMode ` 属性的值改为 `false` 即可。
 
 ```
 # Night mode
@@ -308,7 +308,7 @@ nightMode: true
 
 #### 主题皮肤
 
-![](screenshot/jekyll-theme-h2o-themecolor.jpg)
+![](uploads/jekyll-theme-h2o-themecolor.jpg)
 
 支持两种主题颜色蓝色（默认）和粉色
 
@@ -337,7 +337,7 @@ header-img: assets/img/banner.jpg
 
 #### 头图底纹
 
-![](screenshot/jekyll-theme-h2o-heroPatterns.png)
+![](uploads/jekyll-theme-h2o-heroPatterns.png)
 
 在没有图片的情况下单纯显示颜色会不会太无趣了点？于是想到了加入底纹元素，底纹素材是SVG格式的（保存在css样式里），加载比图片快很多。六种底纹（电路、食物、云海、钻石等等）供你选择，配置如下：
 
@@ -355,7 +355,7 @@ postPatterns: 'circuitBoard'
 吃货日常：啃打鸡 | `food`
 土豪必备：钻石| `glamorous`
 圈圈叉叉 | `ticTacToe`
-中国风：云海 | `seaOfClouds` 
+中国风：云海 | `seaOfClouds`
 
 #### 自定义
 
@@ -365,7 +365,7 @@ postPatterns: 'circuitBoard'
 
 在了解H2O主题的目录结构之前，确保你对[Jekyll目录结构](http://jekyll.com.cn/docs/structure/)有所了解。
 
-```		
+```
 	.
 	├── _config.yml # 配置文件
 	├── _includes # 页面组件方便重用
@@ -407,7 +407,7 @@ postPatterns: 'circuitBoard'
 
 [Disqus](https://disqus.com/)是一个第三方社交评论插件，体验相当不错。
 
-模板默认开启Disqus评论插件，如需关闭请在 `_config.yml` 中配置参数 `true` (开启) 或者 `false` (关闭) :  
+模板默认开启Disqus评论插件，如需关闭请在 `_config.yml` 中配置参数 `true` (开启) 或者 `false` (关闭) :
 
 在配置文件 `_config.yml` 中找到Disqus的相关配置，设置 `disqus` 参数为 `true` 打开评论功能，并且设置 `disqus_url`。
 
