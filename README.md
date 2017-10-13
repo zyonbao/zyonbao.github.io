@@ -1,10 +1,10 @@
 ## jekyll-theme-H2O
 
-### 主题作者
+### 本博客实用了主题 jekyll-theme-H2O
 
-#### 感谢主题的作者[liaokeyu](http://liaokeyu.com/)
+#### 感谢主题的作者[liaokeyu](http://liaokeyu.com/) [github](https://github.com/kaeyleo/jekyll-theme-H2O)
 
-### Features 特性
+### H20 的主题特性
 
 #### CN
 
