@@ -1,6 +1,6 @@
 # Site settings 配置站点
 title: 'Pico-Luster-Land'
-description: 'Here is nowhere, I share any things'
+description: 'Zyon's Dev Blog'
 keyword: 'zyon, zyonbao, zyonpaul, iOS, iOS Dev'
 url: 'http://zyonbao.github.io' # your host
 
@@ -15,7 +15,7 @@ nav:
 # Author 配置博主信息
 author: 'Zyon Paul'
 nickname: 'Zyon'
-bio: 'iOS Dever, 搞搞开发, 果然还是喜欢睡觉啊 (///▽///) '
+bio: 'iOS 开发者, 搞搞开发, 学学技术, 但果然还是喜欢睡觉啊 (///▽///) '
 avatar: '/assets/img/profile.png'
 
 # Search

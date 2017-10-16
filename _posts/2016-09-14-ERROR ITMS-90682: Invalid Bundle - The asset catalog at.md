@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '提交 Appstore 出现 ERROR ITMS-90682 的解决方案'
+title: "提交 Appstore 出现 \"ERROR ITMS-90682\" 的解决方案"
 subtitle: '刚升级Xcode 8，幺蛾子又出现了。提交的时候出现了 ERROR ITMS-90682 '
 date: 2016-09-14
 categories: AppStore 提交
