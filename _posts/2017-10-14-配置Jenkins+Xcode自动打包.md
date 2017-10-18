@@ -2,7 +2,7 @@
 layout: post
 title: '配置 Jenkins + Xcode 自动打包'
 subtitle: 'Jenkins 配置 Xcode 加上各种插件可以实现自动打包，是在是不可多得的利器，翻了翻网上的教程，看起来很简单吗，我也来试一试。'
-cover: '/uploads/cover-2017-10-14.jpg'
+cover: '/upload_imgs/history-imgs/cover-2017-10-14.jpg'
 date: 2017-10-14
 categories: jenkins自动打包
 tags: jenkins xcode CI

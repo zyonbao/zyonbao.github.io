@@ -1,26 +1,17 @@
 ---
 layout: post
-title: 'Jenkins 的使用 01 - Jenkins 的安装与卸载'
-subtitle: '一直想学一下 Jenkins 这个神器，这个据说堪称持续集成自动打包的神器。好在网上大牛们的坑已经提前帮我踩过了， 这里记录下安装与使用的过程好啦。'
-date: 2017-09-14
-cover: '/uploads/cover-2017-10-14.jpg'
+title: 'Jenkins系列03-Jenkins的卸载'
+subtitle: '有些时候我们需要重装 Jenkins 或者卸载Jenkins, 这时我们需要怎么做呢?'
+date: 2017-09-24
+cover: '/upload_imgs/history-imgs/cover-2017-10-14.jpg'
 categories: Jenkins
 tags: Jenkins 持续集成 CI
 ---
 
-# Jenkins 的使用 01 - Jenkins 的安装与卸载
 
-## 一. Jenkins 的安装
+# Jenkins系列03-Jenkins的卸载
 
-### 通过 Homebrew 安装
-
-### 通过安装包直接安装
-
- 
-
-## 二 .Jenkins 的卸载
-
-### 卸载 通过Homebrew 安装的 Jenkins
+## 卸载 通过Homebrew 安装的 Jenkins
 
 如果你的 jenkins 是通过 homebrew 安装的， 同样也需要使用 homebrew 卸载，卸载非常简单，在 terminal 中执行下面的命令即可：
 
@@ -28,11 +19,11 @@ tags: Jenkins 持续集成 CI
 brew uninstall jenkins
 ```
 
-### 卸载安装包直接安装的 Jenkins
+## 卸载安装包直接安装的 Jenkins
 
 从官网下载的 jenkins pkg 的安装包则需要按照以下方法：
 
-* 打开 finder, Shift+G 进入路径：`/Library/Application Support/Jenkins/`  如果该目录下有一个 `Uninstall.command` 的脚本文件， 双击执行，当然也可以在 terminal 中通过命令执行：
+* 打开 `Finder`, `Shift+CMD+G` 进入路径：`/Library/Application Support/Jenkins/`  如果该目录下有一个 `Uninstall.command` 的脚本文件， 双击执行，当然也可以在 terminal 中通过命令执行：
 
 ```shell
 sh "/Library/Application Support/Jenkins/Uninstall.command"
@@ -64,3 +55,10 @@ pkgutil --pkgs | grep 'org\.jenkins-ci\.' | xargs -n 1 sudo pkgutil --forget
 ```
 
 好吧，也许你看出来了，手动删除实际上就是将 `Uninstall.command` 内的命令重新执行了一遍。为什么我要写出来呢？因为怕自己需要手动删除找不到 `Uninstall.command` 啊！
+
+**刚刚发现, 如果安装在当前用户下, 想要卸载干净, 还需要删除 当前用户下的 jenkins 工作目录**
+
+```sh
+sudo rm -rf ~/.jenkins
+```
+

@@ -40,11 +40,11 @@ sudo xcrun --sdk iphoneos assetutil --info /path/to/a/Assets.car > /tmp/Assets.j
 
 注：这里的`/path/to/a/Assets.car` 指的是 Assets.car 的路径，*不要*直接复制！！！使用上一步find命令的结果。
 
-![img](/uploads/791090-20160921143640637-12978843.png)
+![img](/upload_imgs/history-imgs/791090-20160921143640637-12978843.png)
 
 7. 打开上一步生成的`/tmp/Assets.json`文件并查找包含有`"DisplayGamut" : "P3"`或者相关的内容.  这段json的`Name`字段对应的值就是16位或显示的γ值为P3的资源文件名.
 
-![img](/uploads/791090-20160914172149367-1157766338.png)
+![img](/upload_imgs/history-imgs/791090-20160914172149367-1157766338.png)
 
 
 8. 找到这个资源文件修改为 8位的sRGB形式,重新编译上传你的app即可.
