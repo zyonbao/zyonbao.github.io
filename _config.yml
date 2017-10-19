@@ -1,6 +1,7 @@
 # Site settings 配置站点
-title: 'Pico-Luster-Land'
-description: "Zyon\'s Dev Blog"
+<<<<<<< Updated upstream
+title: 'pico-luster-land'
+description: "Zyon\'s Blog"
 keyword: 'zyon, zyonbao, zyonpaul, iOS, iOS Dev'
 url: 'http://zyonbao.github.io' # your host
 
