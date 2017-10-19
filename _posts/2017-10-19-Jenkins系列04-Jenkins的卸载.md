@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Jenkins系列03-Jenkins的卸载'
+title: 'Jenkins系列04-Jenkins的卸载'
 subtitle: '有些时候我们需要重装 Jenkins 或者卸载Jenkins, 这时我们需要怎么做呢?'
-date: 2017-09-24
+date: 2017-10-19
 cover: '/upload_imgs/history-imgs/cover-2017-10-14.jpg'
 categories: Jenkins
 tags: Jenkins 持续集成 CI
