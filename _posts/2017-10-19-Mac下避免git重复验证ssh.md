@@ -11,7 +11,7 @@ tags: git的使用
 
 # Mac下避免使用Git总是提示Enter passphrase for key 的解决方法
 
-发现电脑上的每次对github进行操作都会提示：![2017-10-19-git-ssh](/upload_imgs/others/2017-10-19-git-ssh.png)
+发现电脑上的每次对github进行操作都会提示：![2017-10-19-git-ssh](/upload_imgs/coverset/2017-10-19-git-ssh.png)
 
 一次两次还好， 每次都输入分分钟抓狂有木有，google了一下， Mac 下可以将 `ssh key`加入钥匙串，以下是原文翻译：
 >在 MacOS 上你可以用下面的命令将你的私钥加入到 Keychains：
