@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Yoga-02-快速开始-了解更多'
+title: 'Yoga-01-快速开始-了解更多'
 subtitle: '这是facebook出品的flexbox布局库的翻译文档的第0章第1篇'
 date: 2017-10-21
 cover: '/upload_imgs/coverset/2017-10-24-yoga.jpg'
