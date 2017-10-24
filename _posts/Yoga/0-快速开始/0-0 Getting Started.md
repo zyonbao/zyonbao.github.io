@@ -3,7 +3,7 @@ layout: post
 title: 'Yoga-01-快速开始-新手入门'
 subtitle: '这是facebook出品的flexbox布局库的翻译文档的第0章第0篇'
 date: 2017-10-24
-cover: '/upload_imgs/coverset/2017-10-24-yoga.png'
+cover: '/upload_imgs/coverset/2017-10-24-yoga.jpg'
 categories: 翻译文档
 tags: Yoga
 ---
