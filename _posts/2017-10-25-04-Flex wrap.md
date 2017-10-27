@@ -16,7 +16,7 @@ tags: Yoga
 - `Wrap`
 
 如果一个容器指定了 `FlexWrap = Wrap` 那么他的子对象就会折到下一行而不是溢出容器.
-折行将于上一行有相同的 `FlexDirection` 且沿着交叉轴的方向排在上一行旁边. 即, 如果 `FlexDirection = Column` 就往下布局,  `FlexDirection = Row` 就往右布局.(这里应该是指折行与上一行的布局方向相同, 并没有要解释折行与上一行的排列方式的意思)
+折行将于上一行有相同的 `FlexDirection` 且沿着侧轴的方向排在上一行旁边. 即, 如果 `FlexDirection = Column` 就往下布局,  `FlexDirection = Row` 就往右布局.(这里应该是指折行与上一行的布局方向相同, 并没有要解释折行与上一行的排列方式的意思)
 
 #### FlexWrap = Nowrap
 
