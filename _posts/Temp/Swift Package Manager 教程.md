@@ -2,7 +2,7 @@
 
 翻译自[原文](https://theswiftdev.com/2017/11/09/swift-package-manager-tutorial/)
 
-是时候学习如何使用 Swift Package Manager 去处理外部依赖、在 macOS 和 linux 上创建你自己的 Swift 库和 app 。
+是时候学习如何使用 Swift Package Manager 去处理外部依赖、在 macOS 和 linux 上创建你自己的 Swift 库和 app 了。
 
 ------
 
@@ -49,22 +49,24 @@ swift test
 
 ## The Manifest API(清单 API) - Package.swift
 
-每一个 SPM 包内都有一个 Package.swift 清单文件(manifest file). 在清单文件中你可以定义你的全部依赖、targets 甚至为你的工程定义指定的源文件.在本节我会教你清单文件 (manifest file) 的一些基础内容 In this section I'll teach you the basics of the manifest file.
+每一个 SPM 包内都有一个 Package.swift 清单文件(manifest file). 在清单文件中你可以定义你的全部依赖、targets 甚至为你的工程定义指定的源文件.在本节我会教你清单文件 (manifest file) 的一些基础内容.
 
 ### 工具版本
 
-First of all if you want to support the new manifest file format (aka. Swift 4 version), you have to set the swift-tools-version as comment in your manifest file.
+首先如果你想支持新的 manifest file 的格式 (换言之, Swift 4 版本) ， 你得以注释的方式在你的 manifest 文件设置  swift-tools-version. 
 
 ```shell
 // swift-tools-version:4.0
 
 ```
 
-Now you're ready to work with the brand new manifest API.
+现在你已经准备好在全新的 manifest API 下工作了！
 
-### Dependencies
 
-Let's just add our library as a dependency for the main application first by creating a new package dependency inside the Package.swift file. The first argument is a package url string, which can be a local file path or a remote url (usually a github repo link). Note that you should add your dependency to the targets as well. Usually the specific name of a package is defined inside the library manifest file.
+
+### 依赖
+
+让我们先通过在 Package.swift 文件中创建一个新的包依赖 (package dependency) 来为主程序添加一个依赖库. 第一个参数是一条包 url 字符串，可以是本地文件路径也可以是远程 url (通常是一个 github 仓库链接). 注意, 你还应当将你的依赖添加到 targets 中. 通常而言包的特定名称 (包名) 已经在该 library 的 manifest 文件中定义了.  
 
 ```swift
 // swift-tools-version:4.0
@@ -86,7 +88,7 @@ let package = Package(
 
 ```
 
-Now if you run `swift build` you'll fail to build your sources. That's because the SPM only works with git repositories. This means you have to create a repository for your library. Let's move to the directory of the library and run the following commands.
+如果你现在运行 `swift build` 你将编译源文件失败. 那是因为 SPM 仅会工作在 git 仓库下. 这就意味着你需要为你的 library 创建一个 git 仓库. 让我们移动到该目录并执行如下命令:
 
 ```shell
 git init
@@ -107,7 +109,6 @@ public struct my_lib {
 
     public init() {}
 }
-
 
 ```
 
@@ -228,7 +229,7 @@ let package = Package(
 
 ```
 
-### Deployment target, 其他 build flags
+### 部署目标(Deployment target), 其他 build flags
 
 有时候你需要为你的包指定部署的 target. 现在 Swift Package Manager 已经能做到了 (已经有 [一段时间](https://oleb.net/blog/2017/04/swift-3-1-package-manager-deployment-target/)了). 你只需要在构建阶段为编译器提供一些额外的参数就行了.
 
