@@ -2,14 +2,14 @@
 
 ### AlignItems
 
-The `AlignItems` property describes how to align children along the cross axis of their container. `AlignItems` is very similar to `JustifyContent` but instead of applying to the main axis, it applies to the cross axis. There are 4 options for `AlignItems`:
+`AlignItems` 属性描述了如何在容器内按照交轴排列子控件. `AlignItems` 与 `JustifyContent` 非常相似,  但不是应用在主轴上, 而是应用在交轴上的. `AlignItems` 有四个选项:
 
-- `Stretch` (default)
+- `Stretch` (默认)
 - `FlexStart`
 - `FlexEnd`
 - `Center`
 
-The only non-obvious option of the four is `Stretch`. With `AlignItems = Stretch` you instruct children to match the size of their container in the cross axis.
+上述四个选项中唯一一个不明显的是 `Stretch` . 当使用 `AlignItems = Stretch` 时, 你可以指定子控件沿着侧轴方向匹配他们的容器的大小.
 
 #### AlignItems = Stretch
 
@@ -29,9 +29,9 @@ The only non-obvious option of the four is `Stretch`. With `AlignItems = Stretch
 
 ### AlignSelf
 
-The `AlignSelf` property has the same options and effect as `AlignItems` but instead of affecting the children within a container, you can apply this property to a single child to change its alignment within its parent.
+ `AlignSelf` 属性有着和 `AlignItems` 相同的选项, 但不是影响容器内的全部子控件, 你可以将此属性应用在单个子控件上以更改其父控件内的对齐方式.
 
-This property overrides any option set by the parent via the `AlignItems` property.
+这个属性会覆盖父控件设置 `AlignItems` 的任何选项. 
 
 #### AlignItems = FlexEnd; AlignSelf = FlexStart;
 
@@ -39,7 +39,7 @@ This property overrides any option set by the parent via the `AlignItems` proper
 
 ### AlignContent
 
-The `AlignContent` property is used to control how multiple lines of content are aligned within a container which uses `FlexWrap = wrap`. There are 6 options:
+ `AlignContent` 属性用来控制如何在设置了 `FlexWrap = wrap` 的容器内控制多行内容的对齐. 有6个选项:
 
 - `FlexStart` (default)
 - `FlexEnd`
